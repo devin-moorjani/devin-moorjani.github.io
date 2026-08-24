@@ -39,13 +39,11 @@
                     <img src="minifigure.png" style="width: 100%; height: auto; flex-shrink: 0; scroll-snap-align: start;">
                     <img src="minifigureDrawing.png" style="width: 100%; height: auto; flex-shrink: 0; scroll-snap-align: start;">
                 </div>
-                
                 <!-- Navigation Buttons -->
                 <div style="display: flex; justify-content: space-between; margin-top: 10px;">
                     <button onclick="const c = document.getElementById('carousel1'); c.scrollBy({left: -c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">&larr; Prev</button>
                     <button onclick="const c = document.getElementById('carousel1'); c.scrollBy({left: c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">Next &rarr;</button>
                 </div>
-            
                 <h3>LEGO Minifigure</h3>
                 <p>A brief description of your project. Explain the engineering challenge, your specific technical approach, and the final quantifiable result or optimization achieved.</p>
             </div>
@@ -71,6 +69,21 @@
                 <p>A brief description of your project. Explain the engineering challenge, your specific technical approach, and the final quantifiable result or optimization achieved.</p>
             </div>
 
+            <!-- Other Projects -->
+            <div class="project-card">
+                <!-- Carousel Wrapper -->
+                <div style="display: flex; overflow-x: hidden; scroll-snap-type: x mandatory; width: 100%; border-radius: 4px;" id="carousel1">
+                    <img src="chestBoard.png" style="width: 100%; height: auto; flex-shrink: 0; scroll-snap-align: start;">
+                    <img src="pixarBall.png" style="width: 100%; height: auto; flex-shrink: 0; scroll-snap-align: start;">
+                </div>
+                <!-- Navigation Buttons -->
+                <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                    <button onclick="const c = document.getElementById('carousel1'); c.scrollBy({left: -c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">&larr; Prev</button>
+                    <button onclick="const c = document.getElementById('carousel1'); c.scrollBy({left: c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">Next &rarr;</button>
+                </div>
+                <h3>Other Projects</h3>
+                <p>Here are other random projects I designed in Solidworks, Fusion, or OnShape.</p>
+            </div>
         </div>
     </section>
 
