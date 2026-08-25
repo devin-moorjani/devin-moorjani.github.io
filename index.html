@@ -12,7 +12,7 @@
     <header>
         <div class="container animate-fade-in">
             <h1>Devin Moorjani</h1>
-            <p class="subtitle">Mechanical Engineering Student at the University of California, Riverside</p>
+         <!--    <p class="subtitle">Mechanical Engineering Student at the University of California, Riverside</p> -->
             <nav
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
@@ -24,7 +24,7 @@
     <!-- About Section -->
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>My name is Devin Moorjani</p>
+        <p>My name is Devin Moorjani and I'm a Mechanical Engineering student at the University of California, Riverside</p>
     </section>
 
     <!-- Projects Section -->
@@ -34,6 +34,21 @@
             
             <!-- Project Card 1 -->
             <div class="project-card">
+                <h3> V6 Engine</h3>
+                <img src="V6.png" style="width: 100%; height: auto; border-radius: 4px;">
+                <p>The first intern project I did for FSAE. I learned how to create large assemblies in SolidWorks and use gear/mechanical mates.  </p>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <h3>Marble Run</h3>
+                <img src="marbleRun.png" style="width: 100%; height: auto; border-radius: 4px;">
+                <p> With this project, I learned how to create basic motion studies with contact forces and gravity. It was also my first time using gears from the toolbox </p>
+            </div>
+            
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <h3>LEGO Minifigure</h3>
                 <!-- Carousel Wrapper -->
                 <div style="display: flex; overflow-x: hidden; scroll-snap-type: x mandatory; width: 100%; border-radius: 4px;" id="carousel1">
                     <img src="minifigure.png" style="width: 80%; height: 80%; flex-shrink: 0; scroll-snap-align: start;">
@@ -44,26 +59,12 @@
                     <button onclick="const c = document.getElementById('carousel1'); c.scrollBy({left: -c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">&larr; Prev</button>
                     <button onclick="const c = document.getElementById('carousel1'); c.scrollBy({left: c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">Next &rarr;</button>
                 </div>
-                <h3>LEGO Minifigure</h3>
                 <p>A brief description of your project. Explain the engineering challenge, your specific technical approach, and the final quantifiable result or optimization achieved.</p>
             </div>
             
-            <!-- Project Card 2 -->
-            <div class="project-card">
-                <img src="V6.png" style="width: 100%; height: auto; border-radius: 4px;">
-                <h3> V6 Engine</h3>
-                <p>The first intern project I did for FSAE. I learned how to create large assemblies in SolidWorks and use gear/mechanical mates. The tutorial had some problems too, so I had to find solutions to certain parts on my own</p>
-            </div>
-
-            <!-- Project Card 3 -->
-            <div class="project-card">
-                <h3>Marble Run</h3>
-                <img src="marbleRun.png" style="width: 100%; height: auto; border-radius: 4px;">
-                <p>A brief description of your project. Explain the engineering challenge, your specific technical approach, and the final quantifiable result or optimization achieved.</p>
-            </div>
-
             <!-- Other Projects -->
             <div class="project-card">
+                <h3>Other Projects</h3>
                 <!-- Carousel Wrapper -->
                 <div style="display: flex; overflow-x: hidden; scroll-snap-type: x mandatory; width: 100%; border-radius: 4px;" id="carousel2">
                     <img src="pixarBall.png" style="width: 100%; height: auto; flex-shrink: 0; scroll-snap-align: start;">
@@ -75,8 +76,7 @@
                     <button onclick="const c = document.getElementById('carousel2'); c.scrollBy({left: -c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">&larr; Prev</button>
                     <button onclick="const c = document.getElementById('carousel2'); c.scrollBy({left: c.offsetWidth, behavior: 'smooth'})" style="cursor: pointer; padding: 5px 10px;">Next &rarr;</button>
                 </div>
-                <h3>Other Projects</h3>
-                <p>Here are other random projects I designed. All of them are from Solidworks, Fusion, and OnShape.</p>
+                <p>Here are other random projects I've designed. All of them are from Solidworks, Fusion, and OnShape.</p>
             </div>
         </div>
     </section>
@@ -87,7 +87,7 @@
         <p>Feel free to reach out if you want to collaborate on a project or discuss engineering opportunities.</p>
         <div class="contact-links">
             <a href="dmoor061@ucr.edu">Email Me</a>
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/devin-moorjani-115228369/" target="_blank">LinkedIn</a>
             <a href="https://github.com/devin-moorjani" target="_blank">GitHub</a>
         </div>
     </section>
