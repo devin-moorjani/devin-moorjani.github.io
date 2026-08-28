@@ -60,11 +60,6 @@ header {
     border-color: #24292e;
 }
 
-.email-tab:hover {
-    color: #ea4335;
-    border-color: #ea4335;
-}
-
 section {
     max-width: 800px;
     margin: 2rem auto;
